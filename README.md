@@ -20,15 +20,15 @@ MoodFlix é um SaaS criado para resolver o problema universal da indecisão ao e
 ## Tecnologias Utilizadas
 
 * **Frontend:**
-    * **[React.js](https://reactjs.org/)**
-    * **[Tailwind CSS](https://tailwindcss.com/)**
+    * **[React.js]**
+    * **[Tailwind CSS]**
 
 * **Backend:**
-    * **[Node.js](https://nodejs.org/)**
-    * **[Express.js](https://expressjs.com/)**
+    * **[Node.js]**
+    * **[Express.js]**
 
 * **Banco de Dados:**
-    * **[PostgreSQL](https://www.postgresql.org/)**
+    * **[PostgreSQL]**
 
 * **APIs Externas:**
     * [**The Movie Database (TMDb) API**](https://www.themoviedb.org/documentation/api)
