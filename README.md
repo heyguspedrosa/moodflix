@@ -2,7 +2,7 @@
 
 **Encontre o filme perfeito para a sua vibe do momento. Sem spoilers, sem complicação.**
 
-MoodFlix é um SaaS criado para resolver o problema universal da indecisão ao escolher um filme. Com base no seu humor, o MoodFlix sugere um título, apresenta um resumo de uma única frase, mostra o pôster e informa onde ele está disponível para streaming.
+MoodFlix é um SaaS criado para resolver o problema universal da indecisão ao escolher um filme. Com base no seu humor, o MoodFlix sugere um título, apresenta uma sinopse de uma única frase, mostra o pôster e informa onde ele está disponível para streaming.
 
 <!-- ![Exemplo de Interface do MoodFlix](https://i.imgur.com/8Q7gYq9.png)
 *(Imagem de exemplo. Substitua por um screenshot do seu projeto quando estiver pronto!)* -->
@@ -11,7 +11,7 @@ MoodFlix é um SaaS criado para resolver o problema universal da indecisão ao e
 ## Funcionalidades
 
 * **Seleção por Humor:** Escolha entre categorias como "Feliz e Otimista", "Nostálgico", "Para Refletir", etc.
-* **Resumo em Uma Frase:** Tenha uma ideia clara do enredo sem nenhum spoiler.
+* **Sinopse em Uma Frase:** Tenha uma ideia clara do enredo sem nenhum spoiler.
 * **Pôster e Título:** Visualização rápida e identificação imediata do filme.
 * **Onde Assistir:** Logos dos serviços de streaming onde o filme está disponível no Brasil.
 * **Nova Sugestão:** Não gostou da primeira? Peça outra sugestão com a mesma vibe com apenas um clique.
@@ -39,7 +39,7 @@ MoodFlix é um SaaS criado para resolver o problema universal da indecisão ao e
 1.  **Seleção do Usuário:** O usuário clica em um botão de humor na interface React.
 2.  **Chamada à API:** O frontend faz uma requisição `GET` para a API Express (ex: `/api/sugestao?humor=nostalgico`).
 3.  **Consulta ao Banco de Dados:** O servidor Express consulta o banco de dados PostgreSQL para buscar um filme aleatório que corresponda à categoria de humor solicitada.
-4.  **Resposta da API:** A API retorna os dados do filme (ex: `tmdb_id`, `resumo`, `titulo`) para o cliente.
+4.  **Resposta da API:** A API retorna os dados do filme (ex: `tmdb_id`, `sinopse`, `titulo`) para o cliente.
 5.  **Enriquecimento de Dados:** O cliente React usa o `tmdb_id` para fazer chamadas à API externa do TMDb, buscando o pôster e os provedores de streaming.
 6.  **Exibição:** Os componentes React são atualizados dinamicamente para exibir a sugestão completa ao usuário.
 
@@ -123,9 +123,8 @@ moodflix/
 
 ## Próximos Passos e Melhorias
 
-* [ ] Criar um painel de administração para adicionar/editar filmes e categorias.
 * [ ] Permitir que usuários se cadastrem e salvem filmes em uma "watchlist".
-* [ ] Implementar um sistema de avaliação comunitária para a "frase-resumo".
+* [ ] Implementar um sistema de avaliação comunitária para a "frase-sinopse".
 * [ ] Adicionar mais filtros (gênero, ano de lançamento, diretor).
 * [ ] Otimizar as consultas ao banco de dados para sugestões mais personalizadas.
 
