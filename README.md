@@ -48,7 +48,7 @@ MoodFlix é um SaaS criado para resolver o problema universal da indecisão ao e
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/SEU-USUARIO/moodflix.git](https://github.com/SEU-USUARIO/moodflix.git)
+    git clone [https://github.com/heyguspedrosa/moodflix.git](https://github.com/heyguspedrosa/moodflix.git)
     cd moodflix
     ```
 
@@ -92,24 +92,25 @@ MoodFlix é um SaaS criado para resolver o problema universal da indecisão ao e
 
 ## Estrutura do Projeto
 
+```bash
 moodflix/
-├── client/              # Aplicação React (Frontend)
-│   ├── public/
+├── client/          # Frontend (React + Tailwind)
 │   ├── src/
 │   │   ├── components/
 │   │   ├── App.js
 │   │   └── index.js
-│   ├── .env
+│   ├── public/
 │   ├── package.json
-│   └── tailwind.config.js
+│   └── .env
 │
-├── server/              # API Node.js/Express (Backend)
-│   ├── .env
-│   ├── index.js         # Ponto de entrada do servidor
+├── server/          # Backend (Node.js + Express + PostgreSQL)
+│   ├── index.js
 │   ├── package.json
-│   └── ...              # (outros arquivos: rotas, controllers, db config)
+│   ├── .env
+│   └── ...
 │
-└── README.md            # Este arquivo
+└── README.md        
+
 
 
 ## Próximos Passos e Melhorias
