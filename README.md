@@ -131,7 +131,7 @@ moodflix/
 
 ## Autor
 
-* **GitHub:** [@heyguspedrosa](https://github.com/seu-usuario)
+* **GitHub:** [@heyguspedrosa](https://github.com/heyguspedrosa)
 * **LinkedIn:** [Gustavo Pedrosa](https://www.linkedin.com/in/guspedrosa/)
 
 
