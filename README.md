@@ -48,7 +48,7 @@ MoodFlix é um SaaS criado para resolver o problema universal da indecisão ao e
 
 1.  **Clone o repositório:**
     ```bash
-    git clone `https://github.com/heyguspedrosa/moodflix.git`
+    git clone https://github.com/heyguspedrosa/moodflix.git
     cd moodflix
     ```
 
