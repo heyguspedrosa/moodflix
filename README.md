@@ -94,24 +94,32 @@ MoodFlix é um SaaS criado para resolver o problema universal da indecisão ao e
 
 ```bash
 moodflix/
-├── client/          # Frontend (React + Tailwind)
+├── client/                    # Frontend (React + Tailwind)
 │   ├── src/
-│   │   ├── components/
+│   │   ├── components/        
 │   │   ├── App.js
 │   │   └── index.js
 │   ├── public/
+│   │   └── index.html         
 │   ├── package.json
-│   └── .env
+│   └── .env                   
 │
-├── server/          # Backend (Node.js + Express + PostgreSQL)
-│   ├── index.js
+├── server/                    # Backend (Node.js + Express + PostgreSQL)
+│   ├── index.js               
+│   ├── routes/                
+│   ├── controllers/           
+│   ├── models/                
+│   ├── config/                
 │   ├── package.json
-│   ├── .env
-│   └── ...
+│   └── .env                   
 │
-└── README.md        
-
-
+├── database/                  
+│   ├── migrations/            
+│   └── seeds/                 
+│
+├── .gitignore                 
+└── README.md
+``` 
 
 ## Próximos Passos e Melhorias
 
